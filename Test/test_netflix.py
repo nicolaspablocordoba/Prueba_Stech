@@ -29,8 +29,9 @@ variables y métodos
 """
 
 import sys
-sys.path.append(r"C:\Prueba_Stech")
+sys.path.append(r"C:\Prueba_stech")
 import json
+import time
 import inspect
 import unittest
 from selenium import webdriver
@@ -40,7 +41,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from Page_objects.Page_object_login_page import PageObjectLoginPage
 from Page_objects.Page_object_landing_page import PageObjectLandingPage
 from Funciones_extra.Funciones import FuncionesExtras
-import time
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 class NetflixTest(unittest.TestCase):
@@ -48,11 +49,11 @@ class NetflixTest(unittest.TestCase):
         # CHROME CONFIGURATION
         options = webdriver.ChromeOptions()
         options.add_argument("--start-maximized")
-        self.driver = webdriver.Chrome(options=options)
+        self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
         self.driver.implicitly_wait(5)
 
         # JSON lOAD
-        with open(r"C:\Prueba_Stech\Json\URL.json") as netflix_url:
+        with open(r"C:\Prueba_stech\Json\URL.json") as netflix_url:
             self.netflix_url = json.loads(netflix_url.read())
 
         # PAGE OBJECT

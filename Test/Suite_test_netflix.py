@@ -1,6 +1,6 @@
 # LIBRERÍAS
 import sys
-sys.path.append(r"C:\Prueba_Stech")
+sys.path.append(r"C:\Prueba_stech")
 import unittest
 import HtmlTestRunner
 # ARCHIVOS DONDE SE ENCUENTRAN LOS TEST
