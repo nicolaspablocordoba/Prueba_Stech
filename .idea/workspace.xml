@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f491bb-8041-4614-b546-f845896d5e5c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Suite_test_netflix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Suite_test_netflix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/reports/Reporte NetflixTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/reports/Reporte NetflixTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/test_netflix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_netflix.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_netflix.py (1)">
+  <component name="RunManager" selected="Python tests.Python tests for test_netflix.NetflixTest.test_print_tags_test">
     <configuration name="Suite_test_netflix (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Prueba_Stech" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_netflix.NetflixTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_netflix.NetflixTest.test_print_tags_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Prueba_Stech" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,7 +97,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_netflix.NetflixTest&quot;" />
+      <option name="_new_target" value="&quot;test_netflix.NetflixTest.test_print_tags_test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -134,17 +132,17 @@
     <list>
       <item itemvalue="Python.Suite_test_netflix" />
       <item itemvalue="Python.Suite_test_netflix (1)" />
-      <item itemvalue="Python tests.Python tests for test_netflix.NetflixTest" />
       <item itemvalue="Python tests.Python tests in test_netflix.py" />
       <item itemvalue="Python tests.Python tests in test_netflix.py (1)" />
+      <item itemvalue="Python tests.Python tests for test_netflix.NetflixTest.test_print_tags_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_netflix.NetflixTest.test_print_tags_test" />
         <item itemvalue="Python tests.Python tests in test_netflix.py (1)" />
         <item itemvalue="Python.Suite_test_netflix (1)" />
         <item itemvalue="Python.Suite_test_netflix" />
         <item itemvalue="Python tests.Python tests in test_netflix.py" />
-        <item itemvalue="Python tests.Python tests for test_netflix.NetflixTest" />
       </list>
     </recent_temporary>
   </component>

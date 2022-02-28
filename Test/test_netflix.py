@@ -131,11 +131,13 @@ class NetflixTest(unittest.TestCase):
         self.tag_name = tag_name
         print("El tag que se recibe por parametro es: "+self.tag_name)
         try:
+            contador = 0
             lista = list(WebDriverWait(self.driver, 5).until(EC.presence_of_all_elements_located((
                 By.TAG_NAME, self.tag_name))))
             if len(lista) > 0:
                 for i in range(len(lista)):
-                    print(i)
+                    contador += 1
+                print("Existen {0} elementos con el tag '{1}'".format(contador, self.tag_name))
         except Exception:
             print("No se encuentran elementos con esta etiqueta")
 
