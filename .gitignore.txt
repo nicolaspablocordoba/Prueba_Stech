@@ -1,0 +1,2 @@
+# ignoro el html para no subir el reporte
+*.html
