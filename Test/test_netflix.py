@@ -29,7 +29,7 @@ variables y métodos
 """
 
 import sys
-sys.path.append("C:\Prueba_Stech")
+sys.path.append(r"C:\Prueba_Stech")
 import json
 import inspect
 import unittest
@@ -60,7 +60,7 @@ class NetflixTest(unittest.TestCase):
         self.login_page = PageObjectLoginPage(self.driver)
         self.funcion_extra = FuncionesExtras()
 
-    def test_validar_titulo_Test(self):
+    def test_validar_titulo_test(self):
         try:
             self.driver.get(self.netflix_url["netflix_landing_page_url"][0])
             title = self.driver.title
@@ -125,12 +125,13 @@ class NetflixTest(unittest.TestCase):
         else:
             self.assertIn("signup", url)  # este assert verifica que la palabra "signup" se encuentre dentro de la URL
 
-    def test_tag_name(self, tag_name='h1'):
+    def test_print_tags_test(self, tag_name='h1'):
         self.driver.get(self.netflix_url["netflix_landing_page_url"][0])
         self.tag_name = tag_name
         print("El tag que se recibe por parametro es: "+self.tag_name)
         try:
-            lista = list(WebDriverWait(self.driver, 5).until(EC.presence_of_all_elements_located((By.TAG_NAME, self.tag_name))))
+            lista = list(WebDriverWait(self.driver, 5).until(EC.presence_of_all_elements_located((
+                By.TAG_NAME, self.tag_name))))
             if len(lista) > 0:
                 for i in range(len(lista)):
                     print(i)
