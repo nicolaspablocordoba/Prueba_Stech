@@ -1,12 +1,13 @@
 # _*Prueba_stech*_
 En este repositorio, dejo subida la prueba técnica de Stech, una descripción de la instalación y uso.
 
-## _*Instalación de Python y git*_:
+## _*Instalación de Python, Git y Chrome*_:
 - Se deberá instalar python: para ello, ingresaremos en el link "https://www.python.org/" y descargaremos la versión más actual (al momento de crear este proyecto, se utilizó python 3.10).
 - Se deberá instalar git. Para ello ingresaremos en "https://git-scm.com/" y descargaremos la última versión compatible con nuestro procesador.
+- Se utilizará como navegador chrome, para descargarlo deberemos ingresar en "https://www.google.com/intl/es-419/chrome/" y hacer click en "Descargar Chrome".
 
 ## _*Clonación del proyecto*_:
-Dentro del disco "C" hacer click derecho y seleccionar "gitbash here" y ejecutar el siguiente comando:
+Una vez instalado Git, deberemos ingresar dentro del disco "C" hacer click derecho y seleccionar "gitbash here" y ejecutar el siguiente comando:
 - git clone https://github.com/nicolaspablocordoba/Prueba_stech.git
 
 ## _*Librerías necesarias*_:
